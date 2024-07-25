@@ -387,7 +387,7 @@ function updateURL() {
       return;
     }
 
-    url.searchParams.remove(field);
+    url.searchParams.delete(field);
     url.searchParams.append(field, options[field]);
   });
 
